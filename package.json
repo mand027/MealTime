@@ -1,0 +1,26 @@
+{
+  "name": "mealtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sassy": "sass estilos.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mand027/MealTime.git"
+  },
+  "author": "Yo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mand027/MealTime/issues"
+  },
+  "homepage": "https://github.com/mand027/MealTime#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "sass": "^1.23.0-module.beta.1"
+  }
+}
