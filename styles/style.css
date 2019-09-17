@@ -9903,6 +9903,11 @@ h3 {
   height: 20rem;
 }
 
+.profilePicture {
+  width: 20rem;
+  height: 20rem;
+}
+
 h1 {
   text-align: center;
 }
