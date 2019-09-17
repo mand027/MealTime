@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MealTime</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+
+<body>
+    <div id="sidebar-wrapper">
+        <nav class="sidebar">
+            <ul class="sidebar__toggled">
+                <li><a href="javascript:void(0)" id="main-toggle" class="sidebar-toggle">Menu</a></li>
+            </ul>
+        </nav>
+        <nav class="sidebar">
+            <ul>
+                <li class="title"><a href="index.html">Meal Time</li>
+                <li><a href="log_in.html"><span></span>Entra a tu cuenta</a></li>
+                <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Busqueda regional</a></li>
+                <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Recetas más gustadas</a></li>
+                <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Recetas más vistas</a></li>
+                <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Recetas gurdadas</a></li>
+                <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Mis recetas</a></li>
+                <li><a href="listaDeChefs.html"><span class="menu-item"></span>Chefs que sigo</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="searchBar row">
+        <div class="col-11"></div>
+        <div class="col-1"> <img class="actions rounded mx-auto d-block" src="./images/lupa.png"> </div>
+    </div>
+
+    <div style="width: 10%; margin: 0 auto;">
+        <div class="row">
+            <div class="col-2"> <img class="logo rounded mx-auto d-block" src="./images/logo.jpeg"> </div>
+        </div>
+        <div class="row" style="text-align: center">
+            <h2>Nueva Receta</h2>
+            <input type="text" id="title" placeholder="Titulo">
+        </div>
+        <div class="row">
+            <input type="text" id="description" placeholder="Descripcion">
+        </div>
+        <div class="row">
+            <input type="text" id="ingredients" placeholder="Ingredientes">
+        </div>
+        <div class="row">
+            <input type="text" id="steps" placeholder="Pasos">
+        </div>
+        <div class="row">
+            <input type="text" id="videoURL" placeholder="URL Video (Opcional)">
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Imagen
+              </button>              
+        </div>
+        <div class="row">
+            <a href="recipe.html">
+                <button class="btn btn-success" style="width: 180px"> Agregar Receta</button>
+            </a>
+        </div>
+    </div>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+    <script src='https://metroui.org.ua/js/jquery/jquery.widget.min.js'></script>
+    <script src='https://metroui.org.ua/js/metro/metro-dropdown.js'></script>
+    <script src="./scriptSideBar.js"></script>
+</body>
