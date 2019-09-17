@@ -9655,6 +9655,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.wrapper {
+  width: 100%;
+}
+
 .main-title {
   font-size: 6rem;
 }
@@ -9887,13 +9891,11 @@ h3 {
 .actions {
   width: 20px;
   height: 20px;
-<<<<<<< HEAD
 }
 
 .actionBar {
   background-color: white;
-=======
->>>>>>> 91eb46ffc2db7d366f3cbdc1e89733816c97174b
+  height: 20px;
 }
 
 .media {
