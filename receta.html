@@ -1,40 +1,76 @@
 <!DOCTYPE html>
+
 <head>
-    <title>MealTime</title>
-    <meta charset = "UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel = "stylesheet" type = "text/css" href = "styles/style.css"/>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  <title>MealTime</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 </head>
+
 <body>
-  <div id ="recipe">
-    <div id="row actions">
-      <div class = "col-12">
-          <img class="actions" src="./images/favorite.png">
-          <img class="actions" src="./images/report.png">
-          <img class="actions" src="./images/delete.png">
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <nav class="sidebar">
+        <ul class="sidebar__toggled">
+          <li><a href="javascript:void(0)" id="main-toggle" class="sidebar-toggle">Menu</a></li>
+        </ul>
+      </nav>
+      <nav class="sidebar">
+        <ul>
+          <li class="title"><a href="index.html">Meal Time</li>
+          <li><a href="log_in.html"><span></span>Entra a tu cuenta</a></li>
+          <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Busqueda regional</a></li>
+          <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Recetas más gustadas</a></li>
+          <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Recetas más vistas</a></li>
+          <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Recetas gurdadas</a></li>
+          <li><a href="listaDeRecetas.html"><span class="menu-item"></span>Mis recetas</a></li>
+          <li><a href="listaDeChefs.html"><span class="menu-item"></span>Chefs que sigo</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="searchBar row">
+      <div class="col-11"></div>
+      <div class="col-1"> <img class="actions rounded mx-auto d-block" src="./images/lupa.png"> </div>
+    </div>
+
+    <div class="actionBar row">
+      <div class="col-11"></div>
+      <div class="col-1 rounded mx-auto d-block">
+        <img class="actions" src="./images/favorite.png">
+        <img class="actions" src="./images/report.png">
+        <img class="actions" src="./images/delete.png">
       </div>
-    <div class ="row content">
-      <div class="col-12"> <img class="media" src="./images/turkey.jpg"> </div>
     </div>
-    <div class ="row content">
-      <div class="col-12"> <img class="media" src="./images/youtube.png"> </div>
+
+    <div class="row">
+      <div class="col-12"> <img class="media rounded mx-auto d-block" src="./images/turkey.jpg"> </div>
     </div>
-    <div class ="row content">
-      <div class="col-12"> <h1>Nombre de Receta</h1> </div>
+
+    <div class="row">
+      <div class="col-12"> <img class="media rounded mx-auto d-block" src="./images/youtube.png"> </div>
     </div>
+
+    <div class="row content">
+      <div class="col-12">
+        <h1>Nombre de Receta</h1>
+      </div>
+    </div>
+
     <div class="row autor">
       <div class="col-6 bio">Bio Bio Bio Bio Bio Bio Bio Bio</div>
       <div class="col-6">
-          <div class="col-12"> <img class="media" src="./images/chef.jpg">
+        <div class="col-12"> <img class="media rounded mx-auto d-block" src="./images/chef.jpg"></div>
       </div>
     </div>
+
   </div>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
   <script src='https://metroui.org.ua/js/jquery/jquery.widget.min.js'></script>
   <script src='https://metroui.org.ua/js/metro/metro-dropdown.js'></script>
-  <script  src="./scriptSideBar.js"></script>
+  <script src="./scriptSideBar.js"></script>
 </body>
