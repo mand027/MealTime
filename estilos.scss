@@ -1,6 +1,5 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
-
 .smolLogo{
     width: 50px;
     height: 50px;
@@ -151,3 +150,22 @@
           margin-right: 50px;
       }
   }
+  
+#recipe{
+  width: 100%;
+}
+.actions{
+  width: 20px;
+  height: 20px; 
+  text-align: right;
+}
+
+.media{
+  width: 50%;
+  height: 100px;
+  align-self: center;
+}
+
+h1 {
+  text-align: center;
+}
